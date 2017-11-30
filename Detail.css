@@ -21,3 +21,7 @@ p {
  text-align: center;
  font-family: Helvetica;
  color: red;
+button {
+ text-align: center;
+ background-color: red;
+ color: red;

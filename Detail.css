@@ -12,16 +12,23 @@ h1 {
  width: 100%
 }
 h2 {
- text-align: center;
  font-family: Georgia;
  font-size: 24 px;
  width: 100%
 }
 p {
- text-align: center;
  font-family: Helvetica;
  color: red;
-button {
- text-align: center;
- background-color: red;
- color: red;
+}
+#menuBar {
+ background: black;
+}
+#spacing {
+ padding: 1px 30px;
+}
+#Berry {
+ float: left;
+}
+#Savage {
+ float: right;
+}

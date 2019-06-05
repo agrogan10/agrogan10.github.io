@@ -32,3 +32,6 @@ p {
 #Savage {
  float: right;
 }
+td:hover {
+ background: gray;
+}

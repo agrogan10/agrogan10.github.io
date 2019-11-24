@@ -1,42 +1,116 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
- <title>The Official Chicken Coop</title>
- <body>
-      <link rel="stylesheet" type="text/css" href="Detail.css">
-    <h1 style="color: white;" >ChickenCoop, in Development
-    <img src="https://media.discordapp.net/attachments/
-357747243983437825/385670508865126401/agrogan10_fixed.png" height="64" width="64">
-       <a href="https://www.youtube.com/channel/UCQzEJBlBMfPTx_t8yKmuS3w?view_as=subscriber" target="https://www.youtube.com/channel/UCQzEJBlBMfPTx_t8yKmuS3w?view_as=subscriber">
-       <img src="https://cdn.discordapp.com/attachments/357747243983437825/385683429242699776/580b57fcd9996e24bc43c545.png" height="50" width="64"> </a>
-     </h1>
-     <center>
-     <div style = "border:1px solid white;" id = "menuBar">
-     <table>
-    <tr>
-    <a href="index.html" target="index.html">
-    <td><a href="index.html" target="index.html"><h2 style="color: white">Home</h2></td>
-    </a>
-    <td><a href="friends.html" target="friends.html"><h2 id="spacing" style="color: white">Friends<h2></td>
-    </a>
-    </tr>
-   </table>
-   </div>
-   <div id="Berry" style="width: 20%">
-   <a href="https://www.youtube.com/channel/UCXBJzyuAEhXHy3f0Se1QNjQ" target="https://www.youtube.com/channel/UCXBJzyuAEhXHy3f0Se1QNjQ">
-   <img src="https://yt3.ggpht.com/-zr3pTvVbeC8/AAAAAAAAAAI/AAAAAAAAAAA/1PN1zaI3SxY/s288-c-k-no-mo-rj-c0xffffff/photo.jpg" height="128" width="128">
-   </a>
-   <p style= "color: white;"><strong>BerryFunChannel</strong></p>
-   </div>
-   <div style="width: 20%">
-   <a href="https://www.youtube.com/user/TMPZY260" target="https://www.youtube.com/channel/UC1AqXIgqkpbLh5jrZCVuQXg/videos">
-   <img src="https://yt3.ggpht.com/-j9yJkY2Qy6g/AAAAAAAAAAI/AAAAAAAAAAA/jMGAEu0PUks/s288-c-k-no-mo-rj-c0xffffff/photo.jpg" height="128" width="128"> </a>
-   <p style= "color: white;"><strong>TMPZY</strong></p>
-   </div>
-   <div id="Savage" style="width:180%">
-   <a href="https://www.youtube.com/channel/UC1AqXIgqkpbLh5jrZCVuQXg/videos" target="https://www.youtube.com/channel/UC1AqXIgqkpbLh5jrZCVuQXg/videos">
-   <img src="https://yt3.ggpht.com/-91fsejyF_ME/AAAAAAAAAAI/AAAAAAAAAAA/TUFa6e-ju0A/s288-c-k-no-mo-rj-c0xffffff/photo.jpg" height="128" width="128"></a>
-   <p style= "color: white;"><strong>IStrqfez</strong></p>
-   </div>
-   </body>
-   </html>
-   
+
+<header>
+        <title>The Official Chicken Coop - Friends</title>
+    <style>
+    body {
+        background: #141E30;
+        background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+        background: linear-gradient(-45deg, #35577D, #141E30);
+        padding: 0;
+        margin: 0;
+        font-family: Courier New;
+    }
+    nav {
+        background-color: #0c2652;
+        padding: 20px 0 40px 0;
+        font-family: Arial Black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    li {
+        display: inline;
+        margin: 30px 30px 0 0;
+        font-size: 28px;
+        background-color: #3c64a6;
+        float: right;
+        border: 2px solid black;
+        color: black;
+        font-family: Courier New;
+    }
+    li:hover {
+        font-weight: bold;
+        border: 2px solid white;
+        color: goldenrod;
+    }
+    .nav {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    #chicken {
+        color: white;
+        margin-right: 30px;;
+        padding: 0;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .friend1 {
+        margin: 180px 100px 0 50px;
+        width: 20%;
+        text-align: center;
+        float: left;
+        color: white;
+    }
+    .friend2 {
+        float: right;
+        margin: 180px 500px 0 50px;
+        color: white;
+        text-align: center;
+        width: 20%;
+    }
+    #friendImg1 {
+        border: 3px solid #3c64a6;
+    }
+    #friendImg1:hover {
+        border: 3px solid white;
+    }
+    #friendImg2 {
+        border: 3px solid #3c64a6;
+    }
+    #friendImg2:hover {
+        border: 3px solid white;
+    }
+    #youtube:hover {
+        width: 85px;
+    }
+    </style>
+</header>
+
+<body>
+    <nav>
+            <!-- Navigation -->
+        <h1 class = "nav" id = "chicken">The Official Chicken Coop</h1>
+        <img src = "https://media.discordapp.net/attachments/357747243983437825/385670508865126401/agrogan10_fixed.png" width = "100px">
+        <a href = "https://www.youtube.com/channel/UCQzEJBlBMfPTx_t8yKmuS3w?view_as=subscriber" target = "_blank">
+        <img src = "https://cdn.discordapp.com/attachments/357747243983437825/385683429242699776/580b57fcd9996e24bc43c545.png" width = "80px" id = "youtube">
+                </a>
+        <ul class = "nav">
+            <a href = "#">
+            <li>About Me</li>
+            </a>
+            <a href = "friends.html">
+            <li>Friends</li>
+            </a>
+            <a href = "index.html">
+            <li>Home</li>
+            </a>
+        </ul>
+    </nav>
+    <section class = "friend1">
+        <a href = "https://www.youtube.com/channel/UCXBJzyuAEhXHy3f0Se1QNjQ" target = "_blank">
+            <img src = "https://yt3.ggpht.com/-zr3pTvVbeC8/AAAAAAAAAAI/AAAAAAAAAAA/1PN1zaI3SxY/s288-c-k-no-mo-rj-c0xffffff/photo.jpg" width = "128" height = "128" id = "friendImg1">
+        </a>
+        <h3>BerryFunChannel</h3>
+    </section>
+    <section class = "friend2">
+        <a href = "https://www.youtube.com/user/TMPZY260" target = "_blank">
+            <img src = "https://yt3.ggpht.com/-j9yJkY2Qy6g/AAAAAAAAAAI/AAAAAAAAAAA/jMGAEu0PUks/s288-c-k-no-mo-rj-c0xffffff/photo.jpg" width = "128" height = "128" id = "friendImg2">
+        </a>
+        <h3>TMPZY</h3>
+    </section>
+    </body>
+
+</html>
